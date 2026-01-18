@@ -1942,3 +1942,228 @@ Soak up standard input and write to a file (safe in-place editing).
 ### 461. ts (Timestamp)
 Timestamp input lines.
 [View Detailed Documentation](ts_command_details.md)
+
+---
+
+## 🚀 Modern CLI Tools
+*Enhanced replacements for classic commands.*
+
+### 462. bat (Cat Clone)
+A cat clone with syntax highlighting and Git integration.
+[View Detailed Documentation](bat_command_details.md)
+
+### 463. fd (Find Clone)
+A simple, fast and user-friendly alternative to ind.
+[View Detailed Documentation](fd_command_details.md)
+
+### 464. fzf (Fuzzy Finder)
+General-purpose command-line fuzzy finder.
+[View Detailed Documentation](fzf_command_details.md)
+
+### 465. tldr (Simpler Man)
+Simplified and community-driven man pages.
+[View Detailed Documentation](tldr_command_details.md)
+
+### 466. http (HTTPie)
+User-friendly command-line HTTP client.
+[View Detailed Documentation](http_command_details.md)
+
+### 467. duf (Disk Usage Free)
+Disk Usage/Free Utility - a better 'df' alternative.
+[View Detailed Documentation](duf_command_details.md)
+
+### 468. zoxide (Smarter CD)
+A smarter cd command that learns your habits.
+[View Detailed Documentation](zoxide_command_details.md)
+
+### 469. lsd (LS Deluxe)
+An ls command with a lot of new features and icons.
+[View Detailed Documentation](lsd_command_details.md)
+
+### 470. cheat (Cheatsheets)
+Create and view interactive cheatsheets on the command-line.
+[View Detailed Documentation](cheat_command_details.md)
+
+### 471. procs (Modern PS)
+A modern replacement for ps written in Rust.
+[View Detailed Documentation](procs_command_details.md)
+
+---
+
+## 🛠️ Build Systems & Debugging
+*Compiling, building, and debugging code.*
+
+### 472. cmake (Make Generator)
+Cross-platform tool to build, test and package software.
+[View Detailed Documentation](cmake_command_details.md)
+
+### 473. valgrind (Memory Debugger)
+Instrumentation framework for dynamic analysis (memory leaks).
+[View Detailed Documentation](valgrind_command_details.md)
+
+### 474. perf (Profiler)
+Performance Counters for Linux (profiling).
+[View Detailed Documentation](perf_command_details.md)
+
+### 475. shellcheck (Script Analysis)
+Static analysis tool for shell scripts.
+[View Detailed Documentation](shellcheck_command_details.md)
+
+### 476. ctags (Code Tags)
+Generates an index of language objects in source files.
+[View Detailed Documentation](ctags_command_details.md)
+
+### 477. ninja (Fast Build)
+Small build system with a focus on speed.
+[View Detailed Documentation](ninja_command_details.md)
+
+### 478. meson (Build System)
+Fast and user-friendly build system.
+[View Detailed Documentation](meson_command_details.md)
+
+### 479. gprof (Code Profiler)
+Displays call graph profile data.
+[View Detailed Documentation](gprof_command_details.md)
+
+### 480. strip (Discard Symbols)
+Discards symbols from object files (reduce size).
+[View Detailed Documentation](strip_command_details.md)
+
+### 481. addr2line (Address to Line)
+Converts addresses into filenames and line numbers.
+[View Detailed Documentation](addr2line_command_details.md)
+
+---
+
+## 📡 Advanced Networking & Traffic
+*Monitoring, downloading, and troubleshooting.*
+
+### 482. aria2c (Downloader)
+Lightweight multi-protocol & multi-source download utility.
+[View Detailed Documentation](aria2c_command_details.md)
+
+### 483. axel (Download Accelerator)
+Lightweight download accelerator (multi-connection).
+[View Detailed Documentation](axel_command_details.md)
+
+### 484. nethogs (Process Bandwidth)
+Net top tool grouping bandwidth by process.
+[View Detailed Documentation](nethogs_command_details.md)
+
+### 485. iptraf-ng (Traffic Monitor)
+Console-based IP LAN traffic monitor.
+[View Detailed Documentation](iptraf-ng_command_details.md)
+
+### 486. tcpflow (TCP Capture)
+Captures and reconstructs TCP streams.
+[View Detailed Documentation](tcpflow_command_details.md)
+
+### 487. ngrep (Network Grep)
+Grep-like utility for network packets.
+[View Detailed Documentation](ngrep_command_details.md)
+
+### 488. masscan (Fast Scanner)
+The fastest Internet port scanner.
+[View Detailed Documentation](masscan_command_details.md)
+
+### 489. yt-dlp (Video Downloader)
+Feature-rich command-line video downloader.
+[View Detailed Documentation](yt-dlp_command_details.md)
+
+### 490. speedtest-cli (Speed Test)
+Test internet bandwidth using speedtest.net.
+[View Detailed Documentation](speedtest-cli_command_details.md)
+
+### 491. mii-tool (Link Status)
+Checks or sets the status of media-independent interface units.
+[View Detailed Documentation](mii-tool_command_details.md)
+
+---
+
+## 📄 PDF & Document Processing
+*Manipulating documents and images.*
+
+### 492. pandoc (Universal Converter)
+Universal markup converter (md, html, docx, pdf).
+[View Detailed Documentation](pandoc_command_details.md)
+
+### 493. pdftk (PDF Toolkit)
+Manipulate PDF documents (merge, split, rotate).
+[View Detailed Documentation](pdftk_command_details.md)
+
+### 494. pdfimages (Extract Images)
+Saves images from a PDF file.
+[View Detailed Documentation](pdfimages_command_details.md)
+
+### 495. qpdf (PDF Transform)
+Structural, content-preserving transformations on PDFs.
+[View Detailed Documentation](qpdf_command_details.md)
+
+### 496. mogrify (Inline Convert)
+Resize/convert images in place (ImageMagick).
+[View Detailed Documentation](mogrify_command_details.md)
+
+### 497. identify (Image Info)
+Describes the format and characteristics of image files.
+[View Detailed Documentation](identify_command_details.md)
+
+### 498. optipng (PNG Optimizer)
+Optimizes PNG files losslessly.
+[View Detailed Documentation](optipng_command_details.md)
+
+### 499. jpegoptim (JPEG Optimizer)
+Utility to optimize/compress JPEG files.
+[View Detailed Documentation](jpegoptim_command_details.md)
+
+### 500. gifsicle (GIF Tool)
+Manipulates GIF images and animations.
+[View Detailed Documentation](gifsicle_command_details.md)
+
+### 501. flac (Audio Codec)
+Encodes/decodes FLAC lossless audio files.
+[View Detailed Documentation](flac_command_details.md)
+
+---
+
+## 🎲 More Fun & Utilities
+*Extra tools for data and enjoyment.*
+
+### 502. sl (Steam Locomotive)
+Train animation for mistyping 'ls'.
+[View Detailed Documentation](sl_command_details.md)
+
+### 503. cmatrix (The Matrix)
+Shows a scrolling Matrix-like screen.
+[View Detailed Documentation](cmatrix_command_details.md)
+
+### 504. toilet (Large Text)
+Prints text using large ASCII characters (color support).
+[View Detailed Documentation](toilet_command_details.md)
+
+### 505. lolcat (Rainbows)
+Concatenates files with rainbow coloring.
+[View Detailed Documentation](lolcat_command_details.md)
+
+### 506. rig (Fake Identity)
+Generates random identities (name, address, zip).
+[View Detailed Documentation](rig_command_details.md)
+
+### 507. espeak (Text to Speech)
+Multi-lingual software speech synthesizer.
+[View Detailed Documentation](espeak_command_details.md)
+
+### 508. dialog (TUI)
+Displays dialog boxes from shell scripts.
+[View Detailed Documentation](dialog_command_details.md)
+
+### 509. whiptail (TUI)
+Calls dialog boxes from shell scripts (widely used).
+[View Detailed Documentation](whiptail_command_details.md)
+
+### 510. jo (JSON Output)
+Creates JSON output from a shell.
+[View Detailed Documentation](jo_command_details.md)
+
+### 511. yq (YAML Processor)
+Portable command-line YAML processor.
+[View Detailed Documentation](yq_command_details.md)
