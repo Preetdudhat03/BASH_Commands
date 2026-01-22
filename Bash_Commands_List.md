@@ -2167,3 +2167,238 @@ Creates JSON output from a shell.
 ### 511. yq (YAML Processor)
 Portable command-line YAML processor.
 [View Detailed Documentation](yq_command_details.md)
+
+---
+
+## 📡 Extended Network & Browsing
+*Advanced monitoring and terminal web browsing.*
+
+### 512. vnstat (Traffic Monitor)
+Console-based network traffic monitor (logs usage).
+[View Detailed Documentation](vnstat_command_details.md)
+
+### 513. bmon (Bandwidth Monitor)
+Interactive bandwidth monitor and rate estimator.
+[View Detailed Documentation](bmon_command_details.md)
+
+### 514. nload (Network Load)
+Displays the current network usage (graphs).
+[View Detailed Documentation](nload_command_details.md)
+
+### 515. tcptraceroute (TCP Trace)
+Traceroute implementation using TCP packets.
+[View Detailed Documentation](tcptraceroute_command_details.md)
+
+### 516. arp-scan (ARP Scanner)
+Sends ARP packets to hosts on the local subnet.
+[View Detailed Documentation](arp-scan_command_details.md)
+
+### 517. elinks (Enhanced Links)
+Advanced text-mode web browser.
+[View Detailed Documentation](elinks_command_details.md)
+
+### 518. links (Bros. Links)
+Text-based web browser.
+[View Detailed Documentation](links_command_details.md)
+
+---
+
+## 📂 File Management & Cleanup
+*Searching, wiping, and managing files.*
+
+### 519. trash-put (Trash Can)
+Moves files to the trashcan (trash-cli).
+[View Detailed Documentation](trash-put_command_details.md)
+
+### 520. srm (Secure Remove)
+Securely overwrites files before deleting.
+[View Detailed Documentation](srm_command_details.md)
+
+### 521. fdupes (Find Dupes)
+Identifies and removes duplicate files.
+[View Detailed Documentation](fdupes_command_details.md)
+
+### 522. mmv (Mass Move)
+Move/Copy/Append/Link multiple files by wildcard.
+[View Detailed Documentation](mmv_command_details.md)
+
+---
+
+## 💾 Logical Volume Manager (LVM)
+*Managing physical and logical volumes.*
+
+### 523. pvs (PV Status)
+Report information about physical volumes.
+[View Detailed Documentation](pvs_command_details.md)
+
+### 524. vgs (VG Status)
+Report information about volume groups.
+[View Detailed Documentation](vgs_command_details.md)
+
+### 525. lvs (LV Status)
+Report information about logical volumes.
+[View Detailed Documentation](lvs_command_details.md)
+
+### 526. pvscan (PV Scan)
+List all physical volumes.
+[View Detailed Documentation](pvscan_command_details.md)
+
+### 527. vgscan (VG Scan)
+List all volume groups.
+[View Detailed Documentation](vgscan_command_details.md)
+
+### 528. lvscan (LV Scan)
+List all logical volumes.
+[View Detailed Documentation](lvscan_command_details.md)
+
+---
+
+## 💾 XFS Filesystem Tools
+*Utilities specific to XFS.*
+
+### 529. xfs_admin (XFS Admin)
+Change parameters of an XFS filesystem.
+[View Detailed Documentation](xfs_admin_command_details.md)
+
+### 530. xfs_growfs (XFS Grow)
+Expand an existing XFS filesystem.
+[View Detailed Documentation](xfs_growfs_command_details.md)
+
+### 531. xfs_quota (XFS Quota)
+Manage use of quota on XFS filesystems.
+[View Detailed Documentation](xfs_quota_command_details.md)
+
+---
+
+## 🖥️ X11 & Graphics
+*Window system and OpenGL tools.*
+
+### 532. startx (Start X)
+Initialize an X session.
+[View Detailed Documentation](startx_command_details.md)
+
+### 533. xhost (X Access)
+Server access control program for X.
+[View Detailed Documentation](xhost_command_details.md)
+
+### 534. xlsfonts (List Fonts)
+Server font list displayer for X.
+[View Detailed Documentation](xlsfonts_command_details.md)
+
+### 535. xwininfo (Window Info)
+Window information utility for X.
+[View Detailed Documentation](xwininfo_command_details.md)
+
+### 536. xprop (Window Props)
+Property displayer for X.
+[View Detailed Documentation](xprop_command_details.md)
+
+### 537. xdpyinfo (Display Info)
+Display information utility for X.
+[View Detailed Documentation](xdpyinfo_command_details.md)
+
+### 538. glxinfo (GL Info)
+Show information about the GLX implementation.
+[View Detailed Documentation](glxinfo_command_details.md)
+
+### 539. glxgears (GL Gears)
+GLX demo that draws spinning gears (FPS test).
+[View Detailed Documentation](glxgears_command_details.md)
+
+---
+
+## 📦 Compression Utilities
+*Tools for various compression formats.*
+
+### 540. znew (Z to GZ)
+Re-compress .Z files to .gz files.
+[View Detailed Documentation](znew_command_details.md)
+
+### 541. zcmp (Campare GZ)
+Compare compressed files.
+[View Detailed Documentation](zcmp_command_details.md)
+
+### 542. zdiff (Diff GZ)
+Compare compressed files line by line.
+[View Detailed Documentation](zdiff_command_details.md)
+
+### 543. bzgrep (Grep BZ2)
+Search .bz2 files.
+[View Detailed Documentation](bzgrep_command_details.md)
+
+### 544. bzdiff (Diff BZ2)
+Compare .bz2 files.
+[View Detailed Documentation](bzdiff_command_details.md)
+
+### 545. xzgrep (Grep XZ)
+Search .xz files.
+[View Detailed Documentation](xzgrep_command_details.md)
+
+### 546. lzma (LZMA Compress)
+Compress using LZMA algorithm.
+[View Detailed Documentation](lzma_command_details.md)
+
+### 547. unlzma (LZMA Decompress)
+Decompress .lzma files.
+[View Detailed Documentation](unlzma_command_details.md)
+
+### 548. lzcat (Cat LZMA)
+Decompress to stdout.
+[View Detailed Documentation](lzcat_command_details.md)
+
+### 549. lzless (View LZMA)
+View lzma files with less.
+[View Detailed Documentation](lzless_command_details.md)
+
+---
+
+## ⚙️ System, Audit & Traffic Control
+*Advanced system management and auditing.*
+
+### 550. pidstat (PID Stats)
+Report statistics for Linux tasks.
+[View Detailed Documentation](pidstat_command_details.md)
+
+### 551. turbostat (CPU Power)
+Report processor frequency and idle statistics.
+[View Detailed Documentation](turbostat_command_details.md)
+
+### 552. tc (Traffic Control)
+Show / manipulate traffic control settings.
+[View Detailed Documentation](tc_command_details.md)
+
+### 553. nft (Nftables)
+Packet filtering framework.
+[View Detailed Documentation](nft_command_details.md)
+
+### 554. ipset (IP Sets)
+Manage IP sets for firewalls.
+[View Detailed Documentation](ipset_command_details.md)
+
+### 555. auditctl (Audit Control)
+Control the kernel's audit system.
+[View Detailed Documentation](auditctl_command_details.md)
+
+### 556. ausearch (Audit Search)
+Query audit daemon logs.
+[View Detailed Documentation](ausearch_command_details.md)
+
+### 557. aureport (Audit Report)
+Generate summary reports of audit logs.
+[View Detailed Documentation](aureport_command_details.md)
+
+### 558. lastcomm (Last Commands)
+Print information about previously executed commands.
+[View Detailed Documentation](lastcomm_command_details.md)
+
+### 559. quotaon (Quota On)
+Enable filesystem quotas.
+[View Detailed Documentation](quotaon_command_details.md)
+
+### 560. quotaoff (Quota Off)
+Disable filesystem quotas.
+[View Detailed Documentation](quotaoff_command_details.md)
+
+### 561. warnquota (Warn Quota)
+Send mail to users over quota.
+[View Detailed Documentation](warnquota_command_details.md)
