@@ -4,10 +4,10 @@
 The `chvt` command changes the foreground virtual terminal.
 
 ## 2. Purpose
-The purpose of `chvt` is scriptable TTY switching.
+The purpose of `chvt` is switching TTYs via script.
 
 ## 3. Examples
-### Example 1: Switch to TTY1
+### Example 1: Switch
 ```bash
-chvt 1
+sudo chvt 1
 ```

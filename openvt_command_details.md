@@ -4,10 +4,10 @@
 The `openvt` command starts a program on a new virtual terminal (VT).
 
 ## 2. Purpose
-The purpose of `openvt` is launching programs on a separate TTY.
+The purpose of `openvt` is executing commands on separate TTYs.
 
 ## 3. Examples
-### Example 1: Bash on TTY
+### Example 1: Open
 ```bash
-sudo openvt -s /bin/bash
+sudo openvt -s -- bash
 ```

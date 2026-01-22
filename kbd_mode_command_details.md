@@ -4,10 +4,10 @@
 The `kbd_mode` command reports or sets the keyboard mode.
 
 ## 2. Purpose
-The purpose of `kbd_mode` is recovering a unusable keyboard state.
+The purpose of `kbd_mode` is checking keyboard mode (ASCII/Scan).
 
 ## 3. Examples
-### Example 1: Reset to ASCII
+### Example 1: Check
 ```bash
-kbd_mode -a
+kbd_mode
 ```

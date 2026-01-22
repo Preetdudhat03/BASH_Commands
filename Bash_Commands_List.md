@@ -2632,3 +2632,223 @@ Display one-line manual page descriptions.
 ### 611. apropos (Apropos)
 Search manual page names and descriptions.
 [View Detailed Documentation](apropos_command_details.md)
+
+---
+
+## 🏗️ Development & Build Tools
+*Compilers, linkers, and debuggers.*
+
+### 612. make (Make)
+Build automation tool (run recipes).
+[View Detailed Documentation](make_command_details.md)
+
+### 613. gcc (GNU C Compiler)
+Compiler for C programs.
+[View Detailed Documentation](gcc_command_details.md)
+
+### 614. g++ (GNU C++ Compiler)
+Compiler for C++ programs.
+[View Detailed Documentation](g++_command_details.md)
+
+### 615. gdb (GNU Debugger)
+Debug programs during execution.
+[View Detailed Documentation](gdb_command_details.md)
+
+### 616. nm (List Symbols)
+List symbols from object files.
+[View Detailed Documentation](nm_command_details.md)
+
+### 617. objdump (Object Dump)
+Display information/disassemble object files.
+[View Detailed Documentation](objdump_command_details.md)
+
+### 618. readelf (Read ELF)
+Display information about ELF files.
+[View Detailed Documentation](readelf_command_details.md)
+
+### 619. size (List Size)
+List section sizes and total size.
+[View Detailed Documentation](size_command_details.md)
+
+### 620. ld (Linker)
+The GNU linker.
+[View Detailed Documentation](ld_command_details.md)
+
+### 621. as (Assembler)
+The portable GNU assembler.
+[View Detailed Documentation](as_command_details.md)
+
+### 622. cpp (C Preprocessor)
+Macro expansion and include processing.
+[View Detailed Documentation](cpp_command_details.md)
+
+---
+
+## 🖥️ Hardware & Systems (Deep Dive)
+*Hardware listing, management and low-level control.*
+
+### 623. smartctl (SMART Control)
+Control/monitor disk health (SMART).
+[View Detailed Documentation](smartctl_command_details.md)
+
+### 624. lshw (List Hardware)
+Extract detailed hardware configuration.
+[View Detailed Documentation](lshw_command_details.md)
+
+### 625. lsdev (List Devices)
+Display information about installed hardware/interrupts.
+[View Detailed Documentation](lsdev_command_details.md)
+
+### 626. systool (Sysfs Tool)
+View system device information by bus/class.
+[View Detailed Documentation](systool_command_details.md)
+
+### 627. udevadm (Udev Admin)
+Manage device manager events and queue.
+[View Detailed Documentation](udevadm_command_details.md)
+
+### 628. biosdecode (BIOS Decode)
+Parse BIOS memory structures.
+[View Detailed Documentation](biosdecode_command_details.md)
+
+### 629. vpddecode (VPD Decode)
+Parse "vital product data" structure.
+[View Detailed Documentation](vpddecode_command_details.md)
+
+### 630. setpci (Set PCI)
+Configure/Query PCI device registers.
+[View Detailed Documentation](setpci_command_details.md)
+
+### 631. chvt (Change VT)
+Change foreground virtual terminal.
+[View Detailed Documentation](chvt_command_details.md)
+
+### 632. deallocvt (Dealloc VT)
+Deallocate unused virtual consoles.
+[View Detailed Documentation](deallocvt_command_details.md)
+
+### 633. openvt (Open VT)
+Start a program on a new virtual terminal.
+[View Detailed Documentation](openvt_command_details.md)
+
+### 634. fgconsole (Foreground Console)
+Print the number of the active VT.
+[View Detailed Documentation](fgconsole_command_details.md)
+
+### 635. kbd_mode (Keyboard Mode)
+Report or set the keyboard mode.
+[View Detailed Documentation](kbd_mode_command_details.md)
+
+### 636. showkey (Show Key)
+Examine codes sent by the keyboard.
+[View Detailed Documentation](showkey_command_details.md)
+
+### 637. getkeycodes (Get Keycodes)
+Print kernel scancode-to-keycode mapping.
+[View Detailed Documentation](getkeycodes_command_details.md)
+
+### 638. setkeycodes (Set Keycodes)
+Load kernel scancode-to-keycode mapping entries.
+[View Detailed Documentation](setkeycodes_command_details.md)
+
+### 639. tset (Terminal Set)
+Initialize the terminal.
+[View Detailed Documentation](tset_command_details.md)
+
+### 640. infocmp (Info Compare)
+Compare or print terminfo descriptions.
+[View Detailed Documentation](infocmp_command_details.md)
+
+### 641. tic (Terminfo Compile)
+Terminfo entry-description compiler.
+[View Detailed Documentation](tic_command_details.md)
+
+### 642. toe (Table of Entries)
+List supported terminal types.
+[View Detailed Documentation](toe_command_details.md)
+
+### 643. resize (Resize)
+Set environment/terminal settings to window size.
+[View Detailed Documentation](resize_command_details.md)
+
+### 644. setterm (Set Terminal)
+Set terminal attributes.
+[View Detailed Documentation](setterm_command_details.md)
+
+---
+
+## 🖨️ Printing & CUPS
+*Managing print jobs and print servers.*
+
+### 645. lpadmin (LP Admin)
+Configure printer and class information.
+[View Detailed Documentation](lpadmin_command_details.md)
+
+### 646. lpinfo (LP Info)
+Show available devices and drivers.
+[View Detailed Documentation](lpinfo_command_details.md)
+
+### 647. lpoptions (LP Options)
+Display or set printer options/defaults.
+[View Detailed Documentation](lpoptions_command_details.md)
+
+### 648. cupsenable (Enable Printer)
+Start printers and classes.
+[View Detailed Documentation](cupsenable_command_details.md)
+
+### 649. cupsdisable (Disable Printer)
+Stop printers and classes.
+[View Detailed Documentation](cupsdisable_command_details.md)
+
+### 650. accept (Accept Jobs)
+Accept print jobs.
+[View Detailed Documentation](accept_command_details.md)
+
+### 651. reject (Reject Jobs)
+Reject print jobs.
+[View Detailed Documentation](reject_command_details.md)
+
+---
+
+## 📄 Text & Capabilities
+*Formatting and privileges.*
+
+### 652. col (Column)
+Filter reverse line feeds.
+[View Detailed Documentation](col_command_details.md)
+
+### 653. colrm (Col Remove)
+Remove columns from a file.
+[View Detailed Documentation](colrm_command_details.md)
+
+### 654. banner (Banner)
+Print large banner text.
+[View Detailed Documentation](banner_command_details.md)
+
+### 655. talk (Talk)
+Talk to another user.
+[View Detailed Documentation](talk_command_details.md)
+
+### 656. envsubst (Env Substitute)
+Substitute environment variables in strings.
+[View Detailed Documentation](envsubst_command_details.md)
+
+### 657. getopt (Get Options)
+Parse command options (scripts).
+[View Detailed Documentation](getopt_command_details.md)
+
+### 658. zsoelim (So Elim)
+Satisfy .so requests in roff input.
+[View Detailed Documentation](zsoelim_command_details.md)
+
+### 659. ul (Underline)
+Translate underscores to underlining.
+[View Detailed Documentation](ul_command_details.md)
+
+### 660. getcap (Get Capabilities)
+Examine file capabilities.
+[View Detailed Documentation](getcap_command_details.md)
+
+### 661. setcap (Set Capabilities)
+Set file capabilities.
+[View Detailed Documentation](setcap_command_details.md)

@@ -1,17 +1,13 @@
 # make Command - Detailed Documentation
 
 ## 1. Description
-The `make` command is a build automation tool that automatically builds executable programs and libraries from source code.
+The `make` command is a build automation tool that runs recipes from a Makefile.
 
 ## 2. Purpose
-The purpose of `make` is compilation. It reads a `Makefile`.
+The purpose of `make` is compiling and installing software.
 
 ## 3. Examples
 ### Example 1: Build
 ```bash
 make
-```
-### Example 2: Install
-```bash
-sudo make install
 ```

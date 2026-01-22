@@ -1,7 +1,7 @@
 # gcc Command - Detailed Documentation
 
 ## 1. Description
-The `gcc` command is the GNU Compiler Collection C compilation command.
+The `gcc` command (GNU Compiler Collection) compiles C code.
 
 ## 2. Purpose
 The purpose of `gcc` is compiling C programs.

@@ -1,13 +1,13 @@
 # getopt Command - Detailed Documentation
 
 ## 1. Description
-The `getopt` command is used to parse command-line options.
+The `getopt` command parses command options used by shell scripts.
 
 ## 2. Purpose
-The purpose of `getopt` is scripting. It handles complex flags (`-a -b` vs `-ab`).
+The purpose of `getopt` is parsing arguments in scripts.
 
 ## 3. Examples
 ### Example 1: Parse
 ```bash
-getopt -o ab:c -- -a -b value
+getopt -o a:b -- -a 1
 ```

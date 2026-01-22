@@ -1,13 +1,13 @@
 # talk Command - Detailed Documentation
 
 ## 1. Description
-The `talk` command is a visual communication program which copies lines from your terminal to that of another user.
+The `talk` command lets you talk to another user.
 
 ## 2. Purpose
-The purpose of `talk` is chat between logged-in users.
+The purpose of `talk` is visual communication with another user.
 
 ## 3. Examples
-### Example 1: Chat
+### Example 1: Talk
 ```bash
 talk user
 ```

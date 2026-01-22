@@ -4,10 +4,10 @@
 The `readelf` command displays information about ELF files.
 
 ## 2. Purpose
-The purpose of `readelf` is analyzing binary structure.
+The purpose of `readelf` is parsing ELF headers.
 
 ## 3. Examples
-### Example 1: Header
+### Example 1: Headers
 ```bash
-readelf -h ./app
+readelf -h main
 ```

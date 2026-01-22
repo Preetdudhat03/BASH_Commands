@@ -4,10 +4,10 @@
 The `deallocvt` command deallocates unused virtual consoles.
 
 ## 2. Purpose
-The purpose of `deallocvt` is freeing kernel memory used by unused TTYs.
+The purpose of `deallocvt` is freeing memory from unused TTYs.
 
 ## 3. Examples
 ### Example 1: Run
 ```bash
-deallocvt
+sudo deallocvt
 ```

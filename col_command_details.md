@@ -1,13 +1,13 @@
 # col Command - Detailed Documentation
 
 ## 1. Description
-The `col` command filters reverse line feeds from input.
+The `col` command filters reverse line feeds.
 
 ## 2. Purpose
-The purpose of `col` is text formatting (legacy man page processing).
+The purpose of `col` is formatting text processors output.
 
 ## 3. Examples
-### Example 1: Clean
+### Example 1: Filter
 ```bash
-col -b < file
+man ls | col -b > ls.txt
 ```
