@@ -1,10 +1,10 @@
 # expr Command - Detailed Documentation
 
 ## 1. Description
-The `expr` command evaluates expressions. It is legacy; `$(())` syntax is preferred for math.
+The `expr` command evaluates expressions.
 
 ## 2. Purpose
-The purpose of `expr` is math/string.
+The purpose of `expr` is performing integer arithmetic and string matching.
 
 ## 3. Examples
 ### Example 1: Add

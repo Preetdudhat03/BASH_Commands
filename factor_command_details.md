@@ -4,7 +4,7 @@
 The `factor` command prints prime factors.
 
 ## 2. Purpose
-The purpose of `factor` is math.
+The purpose of `factor` is factoring numbers.
 
 ## 3. Examples
 ### Example 1: Factor

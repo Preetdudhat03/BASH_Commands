@@ -4,7 +4,7 @@
 The `uudecode` command decodes a file created by uuencode.
 
 ## 2. Purpose
-The purpose of `uudecode` is decoding binary data from text.
+The purpose of `uudecode` is decoding binary data.
 
 ## 3. Examples
 ### Example 1: Decode

@@ -4,10 +4,10 @@
 The `yes` command outputs a string repeatedly until killed.
 
 ## 2. Purpose
-The purpose of `yes` is automation (answering y to prompts).
+The purpose of `yes` is automating interactive prompts.
 
 ## 3. Examples
-### Example 1: Say Yes
+### Example 1: Confirm
 ```bash
-yes | command
+yes | ./install.sh
 ```

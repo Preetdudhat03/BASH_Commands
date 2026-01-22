@@ -2402,3 +2402,233 @@ Disable filesystem quotas.
 ### 561. warnquota (Warn Quota)
 Send mail to users over quota.
 [View Detailed Documentation](warnquota_command_details.md)
+
+---
+
+## 🔢 Math, Logic & Shell Utilities
+*Calculations, loops, and scripting helpers.*
+
+### 562. bc (Calculator)
+Arbitrary precision calculator language.
+[View Detailed Documentation](bc_command_details.md)
+
+### 563. dc (Desk Calc)
+Reverse-polish desk calculator.
+[View Detailed Documentation](dc_command_details.md)
+
+### 564. expr (Expression)
+Evaluates expressions (math/string).
+[View Detailed Documentation](expr_command_details.md)
+
+### 565. factor (Factor)
+Print prime factors of numbers.
+[View Detailed Documentation](factor_command_details.md)
+
+### 566. seq (Sequence)
+Print a sequence of numbers.
+[View Detailed Documentation](seq_command_details.md)
+
+### 567. numfmt (Number Format)
+Convert numbers from/to human-readable strings.
+[View Detailed Documentation](numfmt_command_details.md)
+
+### 568. yes (Yes)
+Output a string repeatedly until killed.
+[View Detailed Documentation](yes_command_details.md)
+
+### 569. test (Test Condition)
+Check file types and compare values.
+[View Detailed Documentation](test_command_details.md)
+
+### 570. read (Read Input)
+Read a line from standard input.
+[View Detailed Documentation](read_command_details.md)
+
+### 571. sleep (Sleep)
+Delay for a specified amount of time.
+[View Detailed Documentation](sleep_command_details.md)
+
+### 572. usleep (Micro Sleep)
+Sleep for some number of microseconds.
+[View Detailed Documentation](usleep_command_details.md)
+
+### 573. flock (File Lock)
+Manage locks from shell scripts.
+[View Detailed Documentation](flock_command_details.md)
+
+---
+
+## 💾 Filesystem & Boot (Advanced)
+*Deep filesystem management and boot images.*
+
+### 574. e2label (Ext Label)
+Change the label of an ext2/ext3/ext4 filesystem.
+[View Detailed Documentation](e2label_command_details.md)
+
+### 575. e2fsck (Ext Check)
+Check an ext2/ext3/ext4 filesystem.
+[View Detailed Documentation](e2fsck_command_details.md)
+
+### 576. e2image (Ext Image)
+Save critical ext filesystem metadata to a file.
+[View Detailed Documentation](e2image_command_details.md)
+
+### 577. findfs (Find FS)
+Find a filesystem by label or UUID.
+[View Detailed Documentation](findfs_command_details.md)
+
+### 578. wipefs (Wipe FS)
+Wipe a filesystem signature from a device.
+[View Detailed Documentation](wipefs_command_details.md)
+
+### 579. lsinitramfs (List Initramfs)
+List the content of an initramfs image.
+[View Detailed Documentation](lsinitramfs_command_details.md)
+
+### 580. update-initramfs (Update Initramfs)
+Generate an initramfs image.
+[View Detailed Documentation](update-initramfs_command_details.md)
+
+### 581. mkdosfs (Make DOS FS)
+Create an MS-DOS filesystem (FAT).
+[View Detailed Documentation](mkdosfs_command_details.md)
+
+### 582. dosfsck (DOS FS Check)
+Check and repair MS-DOS filesystems.
+[View Detailed Documentation](dosfsck_command_details.md)
+
+---
+
+## 🔒 User & Group Administration (Advanced)
+*Managing integrity and batch updates.*
+
+### 583. pwck (Password Check)
+Verify integrity of password files.
+[View Detailed Documentation](pwck_command_details.md)
+
+### 584. grpck (Group Check)
+Verify integrity of group files.
+[View Detailed Documentation](grpck_command_details.md)
+
+### 585. newgrp (New Group)
+Log in to a new group.
+[View Detailed Documentation](newgrp_command_details.md)
+
+### 586. gpasswd (Group Password)
+Administer /etc/group (members/passwords).
+[View Detailed Documentation](gpasswd_command_details.md)
+
+### 587. chgpasswd (Change Group Pass)
+Update group passwords in batch mode.
+[View Detailed Documentation](chgpasswd_command_details.md)
+
+### 588. chpasswd (Change User Pass)
+Update user passwords in batch mode.
+[View Detailed Documentation](chpasswd_command_details.md)
+
+### 589. login (Login)
+Begin a new session on the system.
+[View Detailed Documentation](login_command_details.md)
+
+---
+
+## ⚙️ Hardware & System Control (Low Level)
+*Keyboard, runlevels, and hardware interactors.*
+
+### 590. setleds (Set LEDs)
+Set the keyboard leds (NumLock, CapsLock, ScrollLock).
+[View Detailed Documentation](setleds_command_details.md)
+
+### 591. loadkeys (Load Keys)
+Load keyboard translation tables.
+[View Detailed Documentation](loadkeys_command_details.md)
+
+### 592. dumpkeys (Dump Keys)
+Dump keyboard translation tables.
+[View Detailed Documentation](dumpkeys_command_details.md)
+
+### 593. runlevel (Runlevel)
+Print previous and current SysV runlevel.
+[View Detailed Documentation](runlevel_command_details.md)
+
+### 594. telinit (Change Init)
+Change system runlevel.
+[View Detailed Documentation](telinit_command_details.md)
+
+### 595. mcookie (Magic Cookie)
+Generate magic cookies for xauth.
+[View Detailed Documentation](mcookie_command_details.md)
+
+---
+
+## 🔒 Hashing & Encoding
+*Checksums and binary encoding.*
+
+### 596. b2sum (BLAKE2 Sum)
+Compute and check BLAKE2 message digest.
+[View Detailed Documentation](b2sum_command_details.md)
+
+### 597. sha224sum (SHA224 Sum)
+Compute and check SHA224 message digest.
+[View Detailed Documentation](sha224sum_command_details.md)
+
+### 598. sha384sum (SHA384 Sum)
+Compute and check SHA384 message digest.
+[View Detailed Documentation](sha384sum_command_details.md)
+
+### 599. sum (Simple Sum)
+Checksum and count the blocks in a file.
+[View Detailed Documentation](sum_command_details.md)
+
+### 600. base32 (Base32)
+Base32 encode/decode data.
+[View Detailed Documentation](base32_command_details.md)
+
+### 601. uuencode (UU Encode)
+Encode a binary file into ASCII text.
+[View Detailed Documentation](uuencode_command_details.md)
+
+### 602. uudecode (UU Decode)
+Decode a file created by uuencode.
+[View Detailed Documentation](uudecode_command_details.md)
+
+---
+
+## 🛠️ Misc Utilities & Network Helpers
+*Various helpful tools.*
+
+### 603. ifup (Interface Up)
+Bring a network interface up (Debian/Legacy).
+[View Detailed Documentation](ifup_command_details.md)
+
+### 604. ifdown (Interface Down)
+Bring a network interface down.
+[View Detailed Documentation](ifdown_command_details.md)
+
+### 605. ifquery (Query Interface)
+Parse interface configuration.
+[View Detailed Documentation](ifquery_command_details.md)
+
+### 606. ncal (New Cal)
+Display a calendar and the date of Easter.
+[View Detailed Documentation](ncal_command_details.md)
+
+### 607. dircolors (Dir Colors)
+Color setup for `ls`.
+[View Detailed Documentation](dircolors_command_details.md)
+
+### 608. pathchk (Path Check)
+Check whether file names are valid or portable.
+[View Detailed Documentation](pathchk_command_details.md)
+
+### 609. cancel (Cancel Print)
+Cancel print jobs.
+[View Detailed Documentation](cancel_command_details.md)
+
+### 610. whatis (What Is)
+Display one-line manual page descriptions.
+[View Detailed Documentation](whatis_command_details.md)
+
+### 611. apropos (Apropos)
+Search manual page names and descriptions.
+[View Detailed Documentation](apropos_command_details.md)

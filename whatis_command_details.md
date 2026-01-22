@@ -4,11 +4,10 @@
 The `whatis` command displays one-line manual page descriptions.
 
 ## 2. Purpose
-The purpose of `whatis` is quick help.
+The purpose of `whatis` is quick command description.
 
 ## 3. Examples
-### Example 1: Lookup
+### Example 1: What is
 ```bash
-whatis cat
-# cat (1) - concatenate files and print on the standard output
+whatis ls
 ```

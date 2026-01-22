@@ -4,7 +4,7 @@
 The `dumpkeys` command dumps keyboard translation tables.
 
 ## 2. Purpose
-The purpose of `dumpkeys` is backing up console keymaps.
+The purpose of `dumpkeys` is viewing current keymap.
 
 ## 3. Examples
 ### Example 1: Dump

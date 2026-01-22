@@ -1,10 +1,10 @@
 # loadkeys Command - Detailed Documentation
 
 ## 1. Description
-The `loadkeys` command loads the keyboard translation tables.
+The `loadkeys` command loads keyboard translation tables.
 
 ## 2. Purpose
-The purpose of `loadkeys` is console keyboard layout configuration.
+The purpose of `loadkeys` is modifying keymaps.
 
 ## 3. Examples
 ### Example 1: Load

@@ -4,8 +4,7 @@
 The `seq` command prints a sequence of numbers.
 
 ## 2. Purpose
-The purpose of `seq` is loop generation. It is used to:
-- Generate numbers for a `for` loop in scripts.
+The purpose of `seq` is generating number lists.
 
 ## 3. Examples
 ### Example 1: 1 to 5

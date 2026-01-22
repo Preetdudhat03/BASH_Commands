@@ -4,10 +4,10 @@
 The `numfmt` command converts numbers from/to human-readable strings.
 
 ## 2. Purpose
-The purpose of `numfmt` is converting bytes to K/M/G etc.
+The purpose of `numfmt` is formatting numbers (e.g. 1K, 1M).
 
 ## 3. Examples
-### Example 1: Convert to Human
+### Example 1: Format
 ```bash
-numfmt --to=iec 1024000
+numfmt --to=si 1000
 ```
