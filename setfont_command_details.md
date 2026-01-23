@@ -1,13 +1,13 @@
 # setfont Command - Detailed Documentation
 
 ## 1. Description
-The `setfont` command loads the console font.
+The `setfont` command loads EGA/VGA console screen fonts.
 
 ## 2. Purpose
-The purpose of `setfont` is changing console text appearance.
+The purpose of `setfont` is changing console fonts.
 
 ## 3. Examples
-### Example 1: Set Font
+### Example 1: Load
 ```bash
-setfont LatArCyrHeb-16
+setfont lat1-16
 ```

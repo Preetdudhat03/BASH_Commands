@@ -2852,3 +2852,233 @@ Examine file capabilities.
 ### 661. setcap (Set Capabilities)
 Set file capabilities.
 [View Detailed Documentation](setcap_command_details.md)
+
+---
+
+## 🔒 SELinux & Audit
+*Security Enhanced Linux and audit tools.*
+
+### 662. audit2allow (Audit to Allow)
+Generate policy allow rules from logs.
+[View Detailed Documentation](audit2allow_command_details.md)
+
+### 663. audit2why (Audit Why)
+Translate audit messages into descriptions.
+[View Detailed Documentation](audit2why_command_details.md)
+
+### 664. semanage (SELinux Manage)
+Configure SELinux policy (users/ports/context).
+[View Detailed Documentation](semanage_command_details.md)
+
+### 665. semodule (SELinux Module)
+Manage SELinux policy modules.
+[View Detailed Documentation](semodule_command_details.md)
+
+### 666. matchpathcon (Match Path Context)
+Get default security context for a path.
+[View Detailed Documentation](matchpathcon_command_details.md)
+
+### 667. getsebool (Get Boolean)
+Get SELinux boolean values.
+[View Detailed Documentation](getsebool_command_details.md)
+
+### 668. setsebool (Set Boolean)
+Set SELinux boolean values.
+[View Detailed Documentation](setsebool_command_details.md)
+
+### 669. secon (SE Context)
+See context of process/file.
+[View Detailed Documentation](secon_command_details.md)
+
+### 670. fixfiles (Fix Files)
+Fix file SELinux security contexts.
+[View Detailed Documentation](fixfiles_command_details.md)
+
+---
+
+## 🏗️ Kernel, CPU & NUMA
+*Low-level CPU control and memory topology.*
+
+### 671. numactl (NUMA Control)
+Control NUMA policy for processes.
+[View Detailed Documentation](numactl_command_details.md)
+
+### 672. numastat (NUMA Stats)
+Show per-NUMA-node memory statistics.
+[View Detailed Documentation](numastat_command_details.md)
+
+### 673. rdmsr (Read MSR)
+Read CPU Model Specific Registers.
+[View Detailed Documentation](rdmsr_command_details.md)
+
+### 674. wrmsr (Write MSR)
+Write CPU Model Specific Registers.
+[View Detailed Documentation](wrmsr_command_details.md)
+
+### 675. cpuid (CPU ID)
+Dump CPUID information.
+[View Detailed Documentation](cpuid_command_details.md)
+
+### 676. lslocks (List Locks)
+List local system locks.
+[View Detailed Documentation](lslocks_command_details.md)
+
+### 677. wdctl (Watchdog Control)
+Show hardware watchdog status.
+[View Detailed Documentation](wdctl_command_details.md)
+
+### 678. chmem (Change Memory)
+Configure memory (online/offline).
+[View Detailed Documentation](chmem_command_details.md)
+
+### 679. chcpu (Change CPU)
+Configure CPUs (enable/disable).
+[View Detailed Documentation](chcpu_command_details.md)
+
+---
+
+## 💾 Btrfs & Storage
+*Btrfs filesystem management tools.*
+
+### 680. btrfs (Btrfs Control)
+Main control interface for Btrfs.
+[View Detailed Documentation](btrfs_command_details.md)
+
+### 681. mkfs.btrfs (Make Btrfs)
+Create a Btrfs filesystem.
+[View Detailed Documentation](mkfs.btrfs_command_details.md)
+
+### 682. btrfstune (Btrfs Tune)
+Tune filesystem parameters.
+[View Detailed Documentation](btrfstune_command_details.md)
+
+### 683. btrfs-image (Btrfs Image)
+Create an image of a Btrfs filesystem.
+[View Detailed Documentation](btrfs-image_command_details.md)
+
+### 684. btrfs-convert (Btrfs Convert)
+Convert from ext2/3/4 to Btrfs.
+[View Detailed Documentation](btrfs-convert_command_details.md)
+
+### 685. swaplabel (Swap Label)
+Print/change swap area label.
+[View Detailed Documentation](swaplabel_command_details.md)
+
+### 686. isosize (ISO Size)
+Output length of iso9660 filesystem.
+[View Detailed Documentation](isosize_command_details.md)
+
+### 687. raw (Raw Device)
+Bind a Linux raw character device.
+[View Detailed Documentation](raw_command_details.md)
+
+### 688. switch_root (Switch Root)
+Switch to another filesystem as root.
+[View Detailed Documentation](switch_root_command_details.md)
+
+---
+
+## 🌐 Networking (Bridge & Wireless)
+*Bridge, Tun, and Wireless extensions.*
+
+### 689. brctl (Bridge Control)
+Manage ethernet bridges.
+[View Detailed Documentation](brctl_command_details.md)
+
+### 690. tunctl (Tun Control)
+Manage TUN/TAP interfaces.
+[View Detailed Documentation](tunctl_command_details.md)
+
+### 691. bridge (Bridge IP)
+Modern bridge management.
+[View Detailed Documentation](bridge_command_details.md)
+
+### 692. lnstat (Linux Net Stat)
+Unified Linux network statistics.
+[View Detailed Documentation](lnstat_command_details.md)
+
+### 693. iwevent (Wireless Event)
+Display Wireless Events.
+[View Detailed Documentation](iwevent_command_details.md)
+
+### 694. iwgetid (Wireless ID)
+Report ESSID/NWID of wireless network.
+[View Detailed Documentation](iwgetid_command_details.md)
+
+### 695. iwpriv (Wireless Priv)
+Configure private driver parameters.
+[View Detailed Documentation](iwpriv_command_details.md)
+
+### 696. iwspy (Wireless Spy)
+Collect wireless statistics from nodes.
+[View Detailed Documentation](iwspy_command_details.md)
+
+### 697. nameif (Name Interface)
+Name interfaces based on MAC.
+[View Detailed Documentation](nameif_command_details.md)
+
+---
+
+## 🔠 I18N & Internationalization
+*Translation and locale tools.*
+
+### 698. msgfmt (Message Format)
+Compile message catalogs.
+[View Detailed Documentation](msgfmt_command_details.md)
+
+### 699. msgmerge (Message Merge)
+Merge .po files.
+[View Detailed Documentation](msgmerge_command_details.md)
+
+### 700. xgettext (Extract Text)
+Extract gettext strings.
+[View Detailed Documentation](xgettext_command_details.md)
+
+### 701. msgcat (Message Cat)
+Concatenate and merge .po files.
+[View Detailed Documentation](msgcat_command_details.md)
+
+---
+
+## 📄 Logs, Parsing & Console
+*Log analysis, parsers, and console tools.*
+
+### 702. logwatch (Log Watch)
+Analyze and report on system logs.
+[View Detailed Documentation](logwatch_command_details.md)
+
+### 703. logsave (Log Save)
+Save the output of a command in a logfile.
+[View Detailed Documentation](logsave_command_details.md)
+
+### 704. ptx (Permuted Index)
+Produce permuted index of file contents.
+[View Detailed Documentation](ptx_command_details.md)
+
+### 705. m4 (M4 Macro)
+Macro processor.
+[View Detailed Documentation](m4_command_details.md)
+
+### 706. bison (Bison)
+Parser generator.
+[View Detailed Documentation](bison_command_details.md)
+
+### 707. flex (Flex)
+Fast lexical analyzer generator.
+[View Detailed Documentation](flex_command_details.md)
+
+### 708. setfont (Set Font)
+Load console screen fonts.
+[View Detailed Documentation](setfont_command_details.md)
+
+### 709. loadunimap (Load Uni)
+Load kernel unicode mapping table.
+[View Detailed Documentation](loadunimap_command_details.md)
+
+### 710. mapscrn (Map Screen)
+Load output character mapping table.
+[View Detailed Documentation](mapscrn_command_details.md)
+
+### 711. setlogcons (Set Log Cons)
+Send kernel messages to current console.
+[View Detailed Documentation](setlogcons_command_details.md)

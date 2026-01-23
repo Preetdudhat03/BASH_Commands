@@ -4,10 +4,10 @@
 The `m4` command is a macro processor.
 
 ## 2. Purpose
-The purpose of `m4` is text replacement and macro expansion.
+The purpose of `m4` is processing macros in text.
 
 ## 3. Examples
 ### Example 1: Process
 ```bash
-m4 definitions.m4
+m4 file.m4
 ```
