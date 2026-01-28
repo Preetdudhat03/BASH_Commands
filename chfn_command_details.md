@@ -1,13 +1,13 @@
 # chfn Command - Detailed Documentation
 
 ## 1. Description
-The `chfn` command changes real user name and information (finger info).
+The `chfn` command allows you to change your finger information (fullname, phone, etc.).
 
 ## 2. Purpose
-The purpose of `chfn` is updating user metadata.
+The purpose of `chfn` is updating user details.
 
 ## 3. Examples
-### Example 1: Change Info
+### Example 1: Change
 ```bash
 chfn
 ```

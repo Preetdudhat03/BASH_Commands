@@ -1,13 +1,13 @@
 # help Command - Detailed Documentation
 
 ## 1. Description
-The `help` command displays help for Bash builtin commands (like `cd`, `echo`, `read`), which don't always have a `man` page.
+The `help` command displays information about shell builtins.
 
 ## 2. Purpose
-The purpose of `help` is builtin documentation.
+The purpose of `help` is learning about bash builtins.
 
 ## 3. Examples
-### Example 1: Help for CD
+### Example 1: Show
 ```bash
 help cd
 ```

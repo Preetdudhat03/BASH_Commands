@@ -1,13 +1,13 @@
 # who Command - Detailed Documentation
 
 ## 1. Description
-The `who` command displays information about users who are currently logged on.
+The `who` command shows who is logged on.
 
 ## 2. Purpose
-The purpose of `who` is user monitoring.
+The purpose of `who` is listing active users.
 
 ## 3. Examples
-### Example 1: Show Users
+### Example 1: Show
 ```bash
-who -a
+who
 ```

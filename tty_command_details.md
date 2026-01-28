@@ -4,10 +4,10 @@
 The `tty` command prints the file name of the terminal connected to standard input.
 
 ## 2. Purpose
-The purpose of `tty` is verifying the terminal device file.
+The purpose of `tty` is checking the current terminal device.
 
 ## 3. Examples
-### Example 1: Print TTY
+### Example 1: Show
 ```bash
 tty
 ```

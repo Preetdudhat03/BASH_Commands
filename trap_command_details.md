@@ -1,13 +1,13 @@
 # trap Command - Detailed Documentation
 
 ## 1. Description
-The `trap` command specifies commands to be executed when the shell receives specific signals (like Ctrl+C).
+The `trap` command traps signals and other events.
 
 ## 2. Purpose
-The purpose of `trap` is cleanup. It ensures temp files are deleted even if the user aborts the script.
+The purpose of `trap` is handling signals in scripts.
 
 ## 3. Examples
-### Example 1: Cleanup on Exit
+### Example 1: Catch
 ```bash
-trap "rm -f /tmp/tempfile" EXIT
+trap "echo Caught" SIGINT
 ```

@@ -4,7 +4,7 @@
 The `mutt` command is a text-based email client.
 
 ## 2. Purpose
-The purpose of `mutt` is interactive email.
+The purpose of `mutt` is reading mail in terminal.
 
 ## 3. Examples
 ### Example 1: Run

@@ -1,13 +1,13 @@
 # info Command - Detailed Documentation
 
 ## 1. Description
-The `info` command reads Info documents. Info documents are often more detailed and structured than man pages (common for GNU tools).
+The `info` command reads Info documents.
 
 ## 2. Purpose
-The purpose of `info` is documentation.
+The purpose of `info` is reading GNU Info documentation.
 
 ## 3. Examples
-### Example 1: Info tar
+### Example 1: Read
 ```bash
-info tar
+info grep
 ```

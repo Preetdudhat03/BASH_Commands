@@ -1,13 +1,13 @@
 # bind Command - Detailed Documentation
 
 ## 1. Description
-The `bind` command is used to change readline key bindings or list them.
+The `bind` command displays current readline key and function bindings.
 
 ## 2. Purpose
-The purpose of `bind` is keyboard customization. You can configure what Ctrl+K or Tab does.
+The purpose of `bind` is configuring keyboard shortcuts in bash.
 
 ## 3. Examples
-### Example 1: List Bindings
+### Example 1: List
 ```bash
 bind -P
 ```

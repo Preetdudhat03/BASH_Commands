@@ -3082,3 +3082,232 @@ Load output character mapping table.
 ### 711. setlogcons (Set Log Cons)
 Send kernel messages to current console.
 [View Detailed Documentation](setlogcons_command_details.md)
+
+---
+
+## 📘 Documentation & Help
+*Accessing manuals and info pages.*
+
+### 712. man (Manual)
+System's manual pager.
+[View Detailed Documentation](man_command_details.md)
+
+### 713. info (Info Docs)
+Read Info documents.
+[View Detailed Documentation](info_command_details.md)
+
+### 714. help (Builtin Help)
+Display information about shell builtins.
+[View Detailed Documentation](help_command_details.md)
+
+---
+
+## 🐚 Shell Builtins & History
+*Internal shell commands and history management.*
+
+### 715. history (Command History)
+Display the command history list.
+[View Detailed Documentation](history_command_details.md)
+
+### 716. fc (Fix Command)
+List, edit, or re-execute commands.
+[View Detailed Documentation](fc_command_details.md)
+
+### 717. type (Type)
+Describe command type (alias/builtin/file).
+[View Detailed Documentation](type_command_details.md)
+
+### 718. hash (Hash Table)
+Remember/report command locations.
+[View Detailed Documentation](hash_command_details.md)
+
+### 719. bind (Bind Keys)
+Display/modify readline key bindings.
+[View Detailed Documentation](bind_command_details.md)
+
+### 720. builtin (Run Builtin)
+Run a shell builtin explicitly.
+[View Detailed Documentation](builtin_command_details.md)
+
+### 721. enable (Enable Builtin)
+Enable/disable shell builtins.
+[View Detailed Documentation](enable_command_details.md)
+
+### 722. caller (Caller Context)
+Return the context of subroutine calls.
+[View Detailed Documentation](caller_command_details.md)
+
+### 723. true (True)
+Return exit code 0 (success).
+[View Detailed Documentation](true_command_details.md)
+
+### 724. false (False)
+Return exit code 1 (failure).
+[View Detailed Documentation](false_command_details.md)
+
+### 725. exit (Exit)
+Exit the shell.
+[View Detailed Documentation](exit_command_details.md)
+
+### 726. logout (Logout)
+Exit a login shell.
+[View Detailed Documentation](logout_command_details.md)
+
+### 727. times (User Times)
+Print accumulated user/system times.
+[View Detailed Documentation](times_command_details.md)
+
+### 728. umask (User Mask)
+Set file mode creation mask.
+[View Detailed Documentation](umask_command_details.md)
+
+### 729. suspend (Suspend Shell)
+Suspend execution of this shell.
+[View Detailed Documentation](suspend_command_details.md)
+
+### 730. trap (Trap Signals)
+Trap signals and other events.
+[View Detailed Documentation](trap_command_details.md)
+
+### 731. pwd (Print WD)
+Print current working directory.
+[View Detailed Documentation](pwd_command_details.md)
+
+---
+
+## 👥 Users & Communication
+*User info, finger, and mail.*
+
+### 732. who (Who)
+Show who is logged on.
+[View Detailed Documentation](who_command_details.md)
+
+### 733. finger (Finger)
+Display information about system users.
+[View Detailed Documentation](finger_command_details.md)
+
+### 734. chfn (Change Finger)
+Change finger information.
+[View Detailed Documentation](chfn_command_details.md)
+
+### 735. mail (Mail)
+Send and receive mail.
+[View Detailed Documentation](mail_command_details.md)
+
+### 736. mailx (Extended Mail)
+Send and receive Internet mail (scriptable).
+[View Detailed Documentation](mailx_command_details.md)
+
+### 737. mutt (Mutt Client)
+Text-based email client.
+[View Detailed Documentation](mutt_command_details.md)
+
+### 738. from (From)
+Print names of those who have sent mail.
+[View Detailed Documentation](from_command_details.md)
+
+### 739. biff (Mail Notify)
+Notify user when mail arrives.
+[View Detailed Documentation](biff_command_details.md)
+
+---
+
+## 📄 Text Formatting & Typesetting
+*Code formatting and troff processing.*
+
+### 740. indent (Indent C)
+Format C source code.
+[View Detailed Documentation](indent_command_details.md)
+
+### 741. etags (Emacs Tags)
+Generate tag file for Emacs.
+[View Detailed Documentation](etags_command_details.md)
+
+### 742. groff (GNU Roff)
+Document formatting system.
+[View Detailed Documentation](groff_command_details.md)
+
+### 743. nroff (New Roff)
+Format documents for TTY display.
+[View Detailed Documentation](nroff_command_details.md)
+
+### 744. troff (Typesetter Roff)
+Format documents for typesetting.
+[View Detailed Documentation](troff_command_details.md)
+
+### 745. eqn (Equation)
+Format equations for troff.
+[View Detailed Documentation](eqn_command_details.md)
+
+### 746. tbl (Table)
+Format tables for troff.
+[View Detailed Documentation](tbl_command_details.md)
+
+### 747. ed (Editor)
+Line-oriented text editor.
+[View Detailed Documentation](ed_command_details.md)
+
+### 748. view (View)
+Read-only vi.
+[View Detailed Documentation](view_command_details.md)
+
+### 749. ex (Ex Editor)
+Line editor mode of vi.
+[View Detailed Documentation](ex_command_details.md)
+
+---
+
+## ⚙️ System, Network & Disk
+*Accounting, backups, and network tracing.*
+
+### 750. tty (Terminal Name)
+Print file name of terminal.
+[View Detailed Documentation](tty_command_details.md)
+
+### 751. ac (Connect Time)
+Print statistics about users' connect time.
+[View Detailed Documentation](ac_command_details.md)
+
+### 752. sa (System Acct)
+Summarize accounting information.
+[View Detailed Documentation](sa_command_details.md)
+
+### 753. dump (Ext Dump)
+Ext2/3/4 filesystem backup.
+[View Detailed Documentation](dump_command_details.md)
+
+### 754. restore (Ext Restore)
+Restore backups made with dump.
+[View Detailed Documentation](restore_command_details.md)
+
+### 755. screendump (Screen Dump)
+Dump virtual console to stdout.
+[View Detailed Documentation](screendump_command_details.md)
+
+### 756. setquota (Set Quota)
+Set disk quotas.
+[View Detailed Documentation](setquota_command_details.md)
+
+### 757. arping (ARP Ping)
+Send ARP ECHO requests.
+[View Detailed Documentation](arping_command_details.md)
+
+### 758. tracepath (Trace Path)
+Trace path to network host (MTU).
+[View Detailed Documentation](tracepath_command_details.md)
+
+### 759. tracepath6 (Trace Path 6)
+Trace path to IPv6 host.
+[View Detailed Documentation](tracepath6_command_details.md)
+
+### 760. partx (Partition Info)
+Tell kernel about on-disk partitions.
+[View Detailed Documentation](partx_command_details.md)
+
+### 761. kpartx (Kernel Part Info)
+Create device maps from partition tables.
+[View Detailed Documentation](kpartx_command_details.md)
+
+### 762. ip6tables (IPv6 Firewall)
+IPv6 packet filtering administration.
+[View Detailed Documentation](ip6tables_command_details.md)

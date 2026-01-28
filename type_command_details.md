@@ -4,11 +4,10 @@
 The `type` command describes how its arguments would be interpreted if used as a command name.
 
 ## 2. Purpose
-The purpose of `type` is introspection. It tells you if a command is a binary, a shell builtin, or an alias.
+The purpose of `type` is identifying aliases, builtins, and files.
 
 ## 3. Examples
-### Example 1: Check ls
+### Example 1: Check
 ```bash
 type ls
-# Output: ls is aliased to `ls --color=auto'
 ```
