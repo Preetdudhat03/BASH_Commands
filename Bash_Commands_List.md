@@ -200,7 +200,7 @@ Displays network connections and routing tables.
 Modern replacement for netstat, dumping socket statistics.
 [View Detailed Documentation](ss_command_details.md)
 
-### 48. traceroute (Trace Path)
+### 48.     route (Trace Path)
 Tracks the route packets take to a network host.
 [View Detailed Documentation](traceroute_command_details.md)
 
@@ -3311,3 +3311,463 @@ Create device maps from partition tables.
 ### 762. ip6tables (IPv6 Firewall)
 IPv6 packet filtering administration.
 [View Detailed Documentation](ip6tables_command_details.md)
+
+
+---
+
+## Storage & Block Devices (Restored)
+*Block device and partition tools.*
+
+### 763. blkdiscard (Discard Sectors)
+Discard sectors on a device.
+[View Detailed Documentation](blkdiscard_command_details.md)
+
+### 764. blkzone (Zone Command)
+Run zone command on a device.
+[View Detailed Documentation](blkzone_command_details.md)
+
+### 765. blockdev (Block Device Ioctls)
+Call block device ioctls from the command line.
+[View Detailed Documentation](blockdev_command_details.md)
+
+### 766. dmsetup (Device Mapper Setup)
+Low level logical volume management.
+[View Detailed Documentation](dmsetup_command_details.md)
+
+### 767. dmstats (Device Mapper Stats)
+Device-mapper statistics management.
+[View Detailed Documentation](dmstats_command_details.md)
+
+### 768. gdisk (GPT Manipulator)
+Interactive GUID partition table manipulator.
+[View Detailed Documentation](gdisk_command_details.md)
+
+### 769. hdparm (Hard Disk Parameters)
+Get/set hard disk parameters.
+[View Detailed Documentation](hdparm_command_details.md)
+
+---
+
+## Filesystem Utilities (Ext, FAT, XFS, JFS)
+*Filesystem specific management tools.*
+
+### 770. e2image (Save Ext Metadata)
+Save critical ext2/ext3/ext4 filesystem metadata to a file.
+[View Detailed Documentation](e2image_command_details.md)
+
+### 771. e2label (Change Ext Label)
+Change the label on an ext2/ext3/ext4 filesystem.
+[View Detailed Documentation](e2label_command_details.md)
+
+### 772. e2undo (Replay Undo Log)
+Replay an undo log for an ext2/ext3/ext4 filesystem.
+[View Detailed Documentation](e2undo_command_details.md)
+
+### 773. e4crypt (Ext4 Encryption)
+Ext4 filesystem encryption utility.
+[View Detailed Documentation](e4crypt_command_details.md)
+
+### 774. e4defrag (Ext4 Defrag)
+Online defragmenter for ext4 filesystem.
+[View Detailed Documentation](e4defrag_command_details.md)
+
+### 775. fatlabel (FAT Label)
+Set or get MS-DOS filesystem label.
+[View Detailed Documentation](fatlabel_command_details.md)
+
+### 776. findfs (Find Filesystem)
+Find a filesystem by label or UUID.
+[View Detailed Documentation](findfs_command_details.md)
+
+### 777. findmnt (Find Mount)
+Find a filesystem.
+[View Detailed Documentation](findmnt_command_details.md)
+
+### 778. fsck.cramfs (Check Cramfs)
+Fsck for cramfs.
+[View Detailed Documentation](fsck.cramfs_command_details.md)
+
+### 779. fsck.ext2 (Check Ext2)
+Check a Linux ext2 filesystem.
+[View Detailed Documentation](fsck.ext2_command_details.md)
+
+### 780. fsck.ext3 (Check Ext3)
+Check a Linux ext3 filesystem.
+[View Detailed Documentation](fsck.ext3_command_details.md)
+
+### 781. fsck.ext4 (Check Ext4)
+Check a Linux ext4 filesystem.
+[View Detailed Documentation](fsck.ext4_command_details.md)
+
+### 782. fsck.fat (Check FAT)
+Check and repair MS-DOS filesystems.
+[View Detailed Documentation](fsck.fat_command_details.md)
+
+### 783. fsck.minix (Check Minix)
+Check a Minix filesystem.
+[View Detailed Documentation](fsck.minix_command_details.md)
+
+### 784. fsck.msdos (Check MSDOS)
+Check and repair MS-DOS filesystems.
+[View Detailed Documentation](fsck.msdos_command_details.md)
+
+### 785. fsck.vfat (Check VFAT)
+Check and repair MS-DOS filesystems.
+[View Detailed Documentation](fsck.vfat_command_details.md)
+
+### 786. fsck.xfs (Check XFS)
+Do nothing, successfully (XFS checks at mount).
+[View Detailed Documentation](fsck.xfs_command_details.md)
+
+### 787. fsfreeze (Freeze Filesystem)
+Suspend access to a filesystem.
+[View Detailed Documentation](fsfreeze_command_details.md)
+
+### 788. fstrim (Trim Filesystem)
+Discard unused blocks on a mounted filesystem.
+[View Detailed Documentation](fstrim_command_details.md)
+
+### 789. getfacl (Get ACL)
+Get file access control lists.
+[View Detailed Documentation](getfacl_command_details.md)
+
+### 790. getfattr (Get Attributes)
+Get extended attributes of filesystem objects.
+[View Detailed Documentation](getfattr_command_details.md)
+
+### 791. isosize (ISO Size)
+Output the length of an iso9660 filesystem.
+[View Detailed Documentation](isosize_command_details.md)
+
+### 792. jfs_fsck (Check JFS)
+Check and repair JFS file system.
+[View Detailed Documentation](jfs_fsck_command_details.md)
+
+### 793. jfs_mkfs (Create JFS)
+Create a JFS file system.
+[View Detailed Documentation](jfs_mkfs_command_details.md)
+
+### 794. jfs_tune (Tune JFS)
+Adjust tunable file system parameters on JFS.
+[View Detailed Documentation](jfs_tune_command_details.md)
+
+---
+
+## Boot & Kernel Tools
+*Bootloader and architecture tools.*
+
+### 795. grub-install (Install GRUB)
+Install GRUB to a device.
+[View Detailed Documentation](grub-install_command_details.md)
+
+### 796. grub-mkconfig (Make GRUB Config)
+Generate a GRUB configuration file.
+[View Detailed Documentation](grub-mkconfig_command_details.md)
+
+### 797. grub-reboot (GRUB Reboot)
+Set the default boot entry for the next boot only.
+[View Detailed Documentation](grub-reboot_command_details.md)
+
+### 798. grub-set-default (Set Default Boot)
+Set the default boot entry for GRUB.
+[View Detailed Documentation](grub-set-default_command_details.md)
+
+### 799. i386 (Set Architecture)
+Change reported architecture in new program environment.
+[View Detailed Documentation](i386_command_details.md)
+
+---
+
+## System Resource Management
+*CPU, memory, and priority control.*
+
+### 800. chcpu (Configure CPUs)
+Enable or disable CPUs.
+[View Detailed Documentation](chcpu_command_details.md)
+
+### 801. chmem (Configure Memory)
+Enable or disable memory blocks.
+[View Detailed Documentation](chmem_command_details.md)
+
+### 802. choom (Adjust OOM-Killer)
+Display and adjust OOM-killer score.
+[View Detailed Documentation](choom_command_details.md)
+
+### 803. chrt (Process Real-time)
+Manipulate the real-time attributes of a process.
+[View Detailed Documentation](chrt_command_details.md)
+
+### 804. ionice (IO Nice)
+Set or get process I/O scheduling class and priority.
+[View Detailed Documentation](ionice_command_details.md)
+
+---
+
+## IPC (Inter-Process Communication)
+*Semaphores and message queues.*
+
+### 805. ipcmk (Make IPC)
+Make various IPC resources.
+[View Detailed Documentation](ipcmk_command_details.md)
+
+### 806. ipcrm (Remove IPC)
+Remove certain IPC resources.
+[View Detailed Documentation](ipcrm_command_details.md)
+
+### 807. ipcs (IPC Status)
+Provide information on ipc facilities.
+[View Detailed Documentation](ipcs_command_details.md)
+
+---
+
+## Networking & Security (Core)
+*Bridge and capability tools.*
+
+### 808. bridge (Bridge Usage)
+Show / manipulate bridge addresses and devices.
+[View Detailed Documentation](bridge_command_details.md)
+
+### 809. capsh (Capability Shell)
+Capability shell wrapper.
+[View Detailed Documentation](capsh_command_details.md)
+
+### 810. chat (Modem Chat)
+Automated conversational script with a modem.
+[View Detailed Documentation](chat_command_details.md)
+
+### 811. devlink (Devlink Tool)
+Network configuration and monitoring tool.
+[View Detailed Documentation](devlink_command_details.md)
+
+### 812. getcap (Get Capabilities)
+Examine file capabilities.
+[View Detailed Documentation](getcap_command_details.md)
+
+
+## 🛡️ Firewall & Security (Extra)
+*Firewall management and security scanning.*
+
+### 813. ufw (Uncomplicated FW)
+Manage firewall rules easily.
+[View Detailed Documentation](ufw_command_details.md)
+
+### 814. firewall-cmd (FirewallD)
+Manage dynamic firewall rules.
+[View Detailed Documentation](firewall-cmd_command_details.md)
+
+### 815. chkrootkit (Rootkit Check)
+Checks for signs of a rootkit.
+[View Detailed Documentation](chkrootkit_command_details.md)
+
+### 816. rkhunter (Rootkit Hunter)
+Scans for rootkits and exploits.
+[View Detailed Documentation](rkhunter_command_details.md)
+
+---
+
+## 👥 User & Group Management (Extra)
+*Friendly wrappers for user/group management.*
+
+### 817. adduser (Add User)
+Friendly wrapper for useradd.
+[View Detailed Documentation](adduser_command_details.md)
+
+### 818. deluser (Delete User)
+Friendly wrapper for userdel.
+[View Detailed Documentation](deluser_command_details.md)
+
+### 819. addgroup (Add Group)
+Adds a group to the system.
+[View Detailed Documentation](addgroup_command_details.md)
+
+### 820. delgroup (Delete Group)
+Removes a group from the system.
+[View Detailed Documentation](delgroup_command_details.md)
+
+### 821. groupmod (Modify Group)
+Modifies a group definition.
+[View Detailed Documentation](groupmod_command_details.md)
+
+### 822. pinky (Finger Info)
+Lightweight finger tool for user info.
+[View Detailed Documentation](pinky_command_details.md)
+
+---
+
+## 🖥️ Systemd & Modern Admin
+*Systemd tools and system inspection.*
+
+### 823. systemd-cgls (CGroup List)
+Recursively shows control group contents.
+[View Detailed Documentation](systemd-cgls_command_details.md)
+
+### 824. systemd-cgtop (CGroup Top)
+Shows top control groups by resource usage.
+[View Detailed Documentation](systemd-cgtop_command_details.md)
+
+### 825. networkctl (Network Status)
+Queries the status of network links.
+[View Detailed Documentation](networkctl_command_details.md)
+
+### 826. bootctl (Boot Control)
+Controls the firmware and boot loader.
+[View Detailed Documentation](bootctl_command_details.md)
+
+### 827. machinectl (Machine Control)
+Controls the systemd machine manager.
+[View Detailed Documentation](machinectl_command_details.md)
+
+### 828. coredumpctl (Coredump Control)
+Retrieves and processes saved core dumps.
+[View Detailed Documentation](coredumpctl_command_details.md)
+
+### 829. lsinitrd (List Initrd)
+Shows the contents of an initramfs image.
+[View Detailed Documentation](lsinitrd_command_details.md)
+
+---
+
+## 🎵 Audio & Media
+*Audio control and playback.*
+
+### 830. pactl (PulseAudio Control)
+Controls a running PulseAudio sound server.
+[View Detailed Documentation](pactl_command_details.md)
+
+### 831. pacmd (PulseAudio Command)
+Reconfigures PulseAudio during runtime.
+[View Detailed Documentation](pacmd_command_details.md)
+
+### 832. pamixer (PulseAudio Mixer)
+PulseAudio mixer for CLI.
+[View Detailed Documentation](pamixer_command_details.md)
+
+### 833. alsamixer (ALSA Mixer)
+Graphical mixer for ALSA driver.
+[View Detailed Documentation](alsamixer_command_details.md)
+
+### 834. amixer (ALSA Command Mixer)
+Command-line mixer for ALSA.
+[View Detailed Documentation](amixer_command_details.md)
+
+### 835. aplay (ALSA Play)
+Command-line sound player.
+[View Detailed Documentation](aplay_command_details.md)
+
+### 836. arecord (ALSA Record)
+Command-line sound recorder.
+[View Detailed Documentation](arecord_command_details.md)
+
+### 837. mpv (Video Player)
+Media player (fork of mplayer).
+[View Detailed Documentation](mpv_command_details.md)
+
+### 838. cvlc (Console VLC)
+Command line interface for VLC.
+[View Detailed Documentation](cvlc_command_details.md)
+
+### 839. cmus (Console Music)
+Small, fast console music player.
+[View Detailed Documentation](cmus_command_details.md)
+
+### 840. mocp (Music On Console)
+Console audio player.
+[View Detailed Documentation](mocp_command_details.md)
+
+### 841. magick (ImageMagick)
+Process images (ImageMagick v7).
+[View Detailed Documentation](magick_command_details.md)
+
+### 842. gm (GraphicsMagick)
+Fast image processing suite.
+[View Detailed Documentation](gm_command_details.md)
+
+---
+
+## 💬 Terminal Productivity & Apps
+*Chat, download, and terminal enhancements.*
+
+### 843. byobu (Window Manager)
+Text-based window manager/multiplexer wrapper.
+[View Detailed Documentation](byobu_command_details.md)
+
+### 844. tmate (Terminal Share)
+Terminal multiplexer with instant sharing.
+[View Detailed Documentation](tmate_command_details.md)
+
+### 845. asciinema (Terminal Rec)
+Records and shares terminal sessions.
+[View Detailed Documentation](asciinema_command_details.md)
+
+### 846. fastfetch (System Info)
+Faster neofetch alternative.
+[View Detailed Documentation](fastfetch_command_details.md)
+
+### 847. mapfile (Read Array)
+Read lines into an indexed array.
+[View Detailed Documentation](mapfile_command_details.md)
+
+### 848. neomutt (NeoMutt)
+Command line mail reader.
+[View Detailed Documentation](neomutt_command_details.md)
+
+### 849. irssi (IRC Client)
+Modular text mode chat client.
+[View Detailed Documentation](irssi_command_details.md)
+
+### 850. weechat (WeeChat)
+Extensible chat client.
+[View Detailed Documentation](weechat_command_details.md)
+
+### 851. rtorrent (Torrent Client)
+Text-based BitTorrent client.
+[View Detailed Documentation](rtorrent_command_details.md)
+
+### 852. transmission-cli (Transmission)
+Lightweight BitTorrent client CLI.
+[View Detailed Documentation](transmission-cli_command_details.md)
+
+---
+
+## 📦 Backup & Recovery
+*Cloud sync, backups, and file recovery.*
+
+### 853. rclone (Cloud Sync)
+Syncs files to and from cloud storage.
+[View Detailed Documentation](rclone_command_details.md)
+
+### 854. restic (Restic Backup)
+Fast, secure, efficient backup program.
+[View Detailed Documentation](restic_command_details.md)
+
+### 855. borg (BorgBackup)
+Deduplicating archiver.
+[View Detailed Documentation](borg_command_details.md)
+
+### 856. duplicity (Encrypted Backup)
+Backs up directories to encrypted volumes.
+[View Detailed Documentation](duplicity_command_details.md)
+
+### 857. rsnapshot (Rsync Snapshot)
+Filesystem snapshot utility.
+[View Detailed Documentation](rsnapshot_command_details.md)
+
+### 858. timeshift (System Snapshot)
+Creates system snapshots/restore points.
+[View Detailed Documentation](timeshift_command_details.md)
+
+### 859. testdisk (Partition Fix)
+Checks and undeletes partitions.
+[View Detailed Documentation](testdisk_command_details.md)
+
+### 860. photorec (Photo Recovery)
+Recover lost files from media.
+[View Detailed Documentation](photorec_command_details.md)
+
+### 861. foremost (Forensic Recover)
+Recover files based on headers/footers.
+[View Detailed Documentation](foremost_command_details.md)
+
+### 862. scalpel (File Carver)
+Fast file carver for recovery.
+[View Detailed Documentation](scalpel_command_details.md)

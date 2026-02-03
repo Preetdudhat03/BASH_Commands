@@ -1,13 +1,21 @@
-# e2label Command - Detailed Documentation
+# Command Name: e2label
 
 ## 1. Description
-The `e2label` command changes the label of an ext2/ext3/ext4 filesystem.
+Change the label on an ext2/ext3/ext4 filesystem.
 
-## 2. Purpose
-The purpose of `e2label` is labeling partitions.
+## 2. Syntax
+\\\ash
+e2label device [new-label]
+\\\
 
-## 3. Examples
-### Example 1: Label
-```bash
-sudo e2label /dev/sda1 MyLabel
-```
+## 3. Options
+None specifically; just arguments
+
+## 4. Examples
+\\\ash
+e2label /dev/sda1 DataDisk
+e2label /dev/sda1
+\\\
+
+## 5. Summary
+The **e2label** command is an essential tool for managing and interacting with linux systems, specifically provided as part of this documentation set.

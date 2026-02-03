@@ -1,13 +1,24 @@
-# findmnt Command - Detailed Documentation
+# Command Name: findmnt
 
 ## 1. Description
-The `findmnt` command finds a filesystem, mount, or mountpoint.
+Find a filesystem. List mounted filesystems.
 
-## 2. Purpose
-The purpose of `findmnt` is search. It's often better than `mount` for searching.
+## 2. Syntax
+\\\ash
+findmnt [options]
+\\\
 
-## 3. Examples
-### Example 1: Find Root
-```bash
-findmnt /
-```
+## 3. Options
+-l, --list: List format
+-k, --kernel: Search kernel mounts
+-f, --fstab: Search fstab
+-t, --types <list>: Limit to types
+
+## 4. Examples
+\\\ash
+findmnt
+findmnt -t ext4
+\\\
+
+## 5. Summary
+The **findmnt** command is an essential tool for managing and interacting with linux systems, specifically provided as part of this documentation set.

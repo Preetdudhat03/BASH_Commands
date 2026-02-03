@@ -1,13 +1,23 @@
-# getfacl Command - Detailed Documentation
+# Command Name: getfacl
 
 ## 1. Description
-The `getfacl` command gets file access control lists (ACLs).
+Get file access control lists.
 
-## 2. Purpose
-The purpose of `getfacl` is advanced permissions. Standard unix permissions (rwx) are limited; ACLs allow per-user permissions.
+## 2. Syntax
+\\\ash
+getfacl [options] file...
+\\\
 
-## 3. Examples
-### Example 1: Get ACL
-```bash
-getfacl file.txt
-```
+## 3. Options
+-R, --recursive: Recursive
+-a, --access: Display access ACL
+-d, --default: Display default ACL
+
+## 4. Examples
+\\\ash
+getfacl myfile.txt
+getfacl -R /var/www
+\\\
+
+## 5. Summary
+The **getfacl** command is an essential tool for managing and interacting with linux systems, specifically provided as part of this documentation set.

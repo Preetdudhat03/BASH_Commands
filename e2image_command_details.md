@@ -1,13 +1,22 @@
-# e2image Command - Detailed Documentation
+# Command Name: e2image
 
 ## 1. Description
-The `e2image` command saves critical ext2/ext3/ext4 filesystem metadata to a file.
+Save critical ext2/ext3/ext4 filesystem metadata to a file.
 
-## 2. Purpose
-The purpose of `e2image` is backing up filesystem metadata.
+## 2. Syntax
+\\\ash
+e2image [options] device image-file
+\\\
 
-## 3. Examples
-### Example 1: Save
-```bash
-sudo e2image /dev/sda1 meta.img
-```
+## 3. Options
+-r: Create raw image
+-Q: Create QCOW2 image
+-I: Install metadata from file
+
+## 4. Examples
+\\\ash
+e2image -Q /dev/sda1 image.qcow2
+\\\
+
+## 5. Summary
+The **e2image** command is an essential tool for managing and interacting with linux systems, specifically provided as part of this documentation set.

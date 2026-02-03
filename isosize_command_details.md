@@ -1,13 +1,22 @@
-# isosize Command - Detailed Documentation
+# Command Name: isosize
 
 ## 1. Description
-The `isosize` command outputs the length of an iso9660 filesystem.
+Output the length of an iso9660 filesystem.
 
-## 2. Purpose
-The purpose of `isosize` is checking ISO size.
+## 2. Syntax
+\\\ash
+isosize [options] iso9660_image
+\\\
 
-## 3. Examples
-### Example 1: Check
-```bash
-isosize /dev/cdrom
-```
+## 3. Options
+-x: Hex output
+-d <divisor>: Divide by divisor
+
+## 4. Examples
+\\\ash
+isosize /dev/sr0
+isosize -d 1024 /path/to/image.iso
+\\\
+
+## 5. Summary
+The **isosize** command is an essential tool for managing and interacting with linux systems, specifically provided as part of this documentation set.
